@@ -8,12 +8,12 @@ Rails.application.routes.draw do
     confirmations: "users/confirmations" 
   }, 
   path_names: { 
-    sign_in: 'login', 
-    password: 'forgot', 
-    confirmation: 'confirm', 
-    unlock: 'unblock', 
-    sign_up: 'register',
-    sign_out: 'signout'
+    sign_in: "signin",
+    password: "forgot", 
+    confirmation: "confirm", 
+    unlock: "unblock", 
+    sign_up: "register",
+    sign_out: "signout"
   }
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
